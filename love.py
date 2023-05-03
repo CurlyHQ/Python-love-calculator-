@@ -16,7 +16,7 @@ def calculate_love_percentage(total_days, love_days):
 
 if __name__ == "__main__":
     birthday = get_date_input("Enter your birthday (YYYY-MM-DD): ")
-    met_date = get_date_input("Enter the day you met (YYYY-MM-DD): ")
+    met_date = get_date_input("Enter the day you two met (YYYY-MM-DD): ")
 
     current_date = datetime.now()
     total_days = calculate_days_passed(birthday, current_date)
